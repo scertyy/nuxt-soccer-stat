@@ -7,6 +7,8 @@ export default defineNuxtConfig({
   router: {
     base: 'nuxt-soccer-stat',
   },
+  ssr: false,
+
   css: ['~/assets/css/main.sass', '~/assets/css/variables.sass'],
   vite: {
     css: {
