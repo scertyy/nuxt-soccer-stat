@@ -3,6 +3,10 @@ import eslintPlugin from 'vite-plugin-eslint'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  target: 'static',
+  router: {
+    base: 'nuxt-soccer-stat',
+  },
   css: ['~/assets/css/main.sass', '~/assets/css/variables.sass'],
   vite: {
     css: {
