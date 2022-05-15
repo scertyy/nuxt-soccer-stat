@@ -1,4 +1,4 @@
-/node_modules
+node_modules
 *.log*
 .nuxt
 .nitro
@@ -6,10 +6,9 @@
 .output
 .env
 .DS_Store
-dist
+.idea
 yarn.lock
 
-*.log
 
 # local env files
 .env.local
