@@ -1,0 +1,1 @@
+import{_,d as r,D as s,o as c,c as p,w as u,a as d,b as f}from"./entry-1ab34492.mjs";const l=r({setup(o,{expose:t}){t();const e={};return Object.defineProperty(e,"__isScriptSetup",{enumerable:!1,value:!0}),e}});function m(o,t,e,i,x,N){const n=s("NuxtPage"),a=d;return c(),p(a,null,{default:u(()=>[f(n)]),_:1})}var b=_(l,[["render",m]]);export{b as default};

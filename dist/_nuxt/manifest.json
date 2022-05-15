@@ -1,0 +1,134 @@
+{
+  "node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "entry-1ab34492.mjs",
+    "src": "node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "layouts/TheMainLayout.vue",
+      "pages/index.vue",
+      "pages/leagues/[league_id].vue",
+      "pages/leagues/index.vue",
+      "pages/leagues.vue",
+      "pages/network-error.vue",
+      "pages/teams/[team_id].vue",
+      "pages/teams/index.vue",
+      "pages/teams.vue"
+    ],
+    "css": [
+      "entry.7a504bb5.css"
+    ],
+    "assets": [
+      "league-default.ecc30ed3.png",
+      "search.ce8a83e8.svg"
+    ]
+  },
+  "pages/index.vue": {
+    "file": "index-4aa9c8cd.mjs",
+    "src": "pages/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_TheH1-752a42e3.mjs",
+      "_TheDescription-1f57f89e.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_TheH1-752a42e3.mjs": {
+    "file": "TheH1-752a42e3.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_TheDescription-1f57f89e.mjs": {
+    "file": "TheDescription-1f57f89e.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/leagues/[league_id].vue": {
+    "file": "_league_id_-dfa7cfe9.mjs",
+    "src": "pages/leagues/[league_id].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_TheBacklink-01f4b0e7.mjs",
+      "_TheH1-752a42e3.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_TheLeagueMeta-4132b16a.mjs"
+    ]
+  },
+  "_TheBacklink-01f4b0e7.mjs": {
+    "file": "TheBacklink-01f4b0e7.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_TheLeagueMeta-4132b16a.mjs": {
+    "file": "TheLeagueMeta-4132b16a.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/leagues/index.vue": {
+    "file": "index-7d7663ec.mjs",
+    "src": "pages/leagues/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_TheH1-752a42e3.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_TheLeagueMeta-4132b16a.mjs"
+    ]
+  },
+  "pages/leagues.vue": {
+    "file": "leagues-adaee6a8.mjs",
+    "src": "pages/leagues.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/network-error.vue": {
+    "file": "network-error-609722a5.mjs",
+    "src": "pages/network-error.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_TheH1-752a42e3.mjs",
+      "_TheDescription-1f57f89e.mjs",
+      "_TheBacklink-01f4b0e7.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/teams/[team_id].vue": {
+    "file": "_team_id_-859c4161.mjs",
+    "src": "pages/teams/[team_id].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/teams/index.vue": {
+    "file": "index-9a3687dd.mjs",
+    "src": "pages/teams/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/teams.vue": {
+    "file": "teams-38b6a777.mjs",
+    "src": "pages/teams.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "layouts/TheMainLayout.vue": {
+    "file": "TheMainLayout-6549f054.mjs",
+    "src": "layouts/TheMainLayout.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "TheMainLayout.8b846e05.css"
+    ]
+  }
+}
